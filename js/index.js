@@ -27,7 +27,6 @@ $(function () { //0
         })
     })
 
-
     // 四.展示区
     // 鼠标移入，阅读更多出现
     $('.campaign__box').on('mouseover', function () {
@@ -42,5 +41,11 @@ $(function () { //0
         })
     })
 
+    // 返回顶部
+        $(".go-back-top").click(function () {
+            $('html,body').stop().animate({
+                'scrollTop': 0
+            })
+        })
 
 }) //0
