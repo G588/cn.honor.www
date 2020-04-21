@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="荣耀,荣耀官网,华为荣耀官网,荣耀手机,荣耀笔记本电脑,荣耀平板,荣耀家居">
-    <meta name="description" content="欢迎访问荣耀官网(honor.cn),选购荣耀手机！荣耀致力于打造全球年轻人最喜爱的科技潮品,以品质、创新和服务为年轻人及年轻心态群体带来极致科技体验,共创年轻潮生活。荣耀,勇敢做自己！">
+    <meta name="description"
+        content="欢迎访问荣耀官网(honor.cn),选购荣耀手机！荣耀致力于打造全球年轻人最喜爱的科技潮品,以品质、创新和服务为年轻人及年轻心态群体带来极致科技体验,共创年轻潮生活。荣耀,勇敢做自己！">
     <title>「荣耀官网」荣耀手机 - V30/30S/20 - honor </title>
     <link rel="shortcut icon" href="./favicon.ico">
     <!-- 清除样式 -->
     <link rel="stylesheet" href="./css/reset.css">
     <!-- 引入首页样式 -->
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./lib/tab/css/jquery.horizontalmenu.css">
 </head>
 
 <body class="honor-v2 honor-cn">
@@ -60,77 +62,104 @@
                         </li>
                     </ul>
                     <!-- 右边内容 -->
-                    <div class="header-right"></div>
+                    <div class="header-right">
+                        <ul>
+                            <li class="si">
+                                <span class="iconfont">&#xe633;</span>
+                            </li>
+
+                            <li class="st">
+                                <span class="iconfont">&#xe619;</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- 导航栏下拉内容1 -->
-        <div class="header-subnav">
-            <ul class="subnav-ul">
-                <li><a href="javascript:;">手机</a></li>
-                <li><a href="javascript:;">笔记本</a></li>
-                <li><a href="javascript:;">平板</a></li>
-                <li><a href="javascript:;">智慧屏</a></li>
-                <li><a href="javascript:;">智能穿戴</a></li>
-                <li><a href="javascript:;">智能家居</a></li>
-                <li><a href="javascript:;">配件</a></li>
-                <li><a href="javascript:;">荣耀亲选</a></li>
+        <div class="spp">
+            <!-- 导航栏下拉内容1 -->
+            <div class="header-subnav">
+                <ul class="subnav-ul">
+                    <li><a href="javascript:;">手机</a></li>
+                    <li><a href="javascript:;">笔记本</a></li>
+                    <li><a href="javascript:;">平板</a></li>
+                    <li><a href="javascript:;">智慧屏</a></li>
+                    <li><a href="javascript:;">智能穿戴</a></li>
+                    <li><a href="javascript:;">智能家居</a></li>
+                    <li><a href="javascript:;">配件</a></li>
+                    <li><a href="javascript:;">荣耀亲选</a></li>
+                </ul>
+            </div>
+            <!-- 导航栏下拉内容2 -->
+            <div class="subnav-lists">
+                <div class="lists-box">
+                    <ul class="hot-products">
+                        <li>
+                            <a href="javascript:;">
+                                <div class="item-img">
+                                    <img src="./images/index/menu-honor30-silver.png" alt="">
+                                </div>
+                                <p class="item-name">荣耀30</p>
+                                <p class="badge-new">NEW</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="item-img">
+                                    <img src="./images/index/menu-honor30pro-silver.png" alt="">
+                                </div>
+                                <p class="item-name">荣耀30 PRO</p>
+                                <p class="badge-new">NEW</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="item-img">
+                                    <img src="./images/index/menu-honor30s.png" alt="">
+                                </div>
+                                <p class="item-name">荣耀30S</p>
+                                <p class="badge-new">NEW</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="item-img">
+                                    <img src="./images/index/menu-v30.png" alt="">
+                                </div>
+                                <p class="item-name">荣耀V30</p>
+                                <p class="badge-new">NEW</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="btn-operate">
+                        <a href="javascript:;" class="ho-btn">
+                            <span class="btn-name">更多产品</span>
+                        </a>
+                        <a href="javascript:;" class="ho-btn">
+                            <span class="btn-name">更多产品</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 二.轮播图 -->
+        <!-- <div class="slideshow"> -->
+        <div class="flexslider">
+            <ul class="slides">
+                <li style="background:url(images/index/home-01.jpg) 50% 0 no-repeat;"></li>
+                <li style="background:url(images/index/home-02.jpg) 50% 0 no-repeat;"></li>
+                <li style="background:url(images/index/home-03.jpg) 50% 0 no-repeat;"></li>
+                <li style="background:url(images/index/home-04.jpg) 50% 0 no-repeat;"></li>
+                <li style="background:url(images/index/home-05.jpg) 50% 0 no-repeat;"></li>
+                <li style="background:url(images/index/home-06.jpg) 50% 0 no-repeat;"></li>
+                <li style="background:url(images/index/home-07.jpg) 50% 0 no-repeat;"></li>
+                <li style="background:url(images/index/home-08.jpg) 50% 0 no-repeat;"></li>
+                <li style="background:url(images/index/home-09.jpg) 50% 0 no-repeat;"></li>
+                <li style="background:url(images/index/home-10.jpg) 50% 0 no-repeat;"></li>
             </ul>
         </div>
-        <!-- 导航栏下拉内容2 -->
-        <div class="subnav-lists">
-            <div class="lists-box">
-                <ul class="hot-products">
-                    <li>
-                        <a href="javascript">
-                            <div class="item-img">
-                                <img src="./images/index/menu-honor30-silver.png" alt="">
-                            </div>
-                            <p class="item-name">荣耀30</p>
-                            <p class="badge-new">NEW</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript">
-                            <div class="item-img">
-                                <img src="./images/index/menu-honor30pro-silver.png" alt="">
-                            </div>
-                            <p class="item-name">荣耀30</p>
-                            <p class="badge-new">NEW</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript">
-                            <div class="item-img">
-                                <img src="./images/index/menu-honor30s.png" alt="">
-                            </div>
-                            <p class="item-name">荣耀30</p>
-                            <p class="badge-new">NEW</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript">
-                            <div class="item-img">
-                                <img src="./images/index/menu-v30.png" alt="">
-                            </div>
-                            <p class="item-name">荣耀30</p>
-                            <p class="badge-new">NEW</p>
-                        </a>
-                    </li>
-                </ul>
-                <div class="btn-operate">
-                    <a href="javascript:;" class="ho-btn">
-                        <span class="btn-name">更多产品</span>
-                    </a>
-                    <a href="javascript:;" class="ho-btn">
-                        <span class="btn-name">更多产品</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 二.轮播图 -->
-        <div class="slideshow"></div>
+        <!-- </div> -->
 
         <!-- 三.商品区 -->
         <div class="c02-pc-products-section">
@@ -206,7 +235,7 @@
                         <div class="gradient-shadow__hover">
                             <div class="stoo">
                                 <h2 class="products__title">荣耀手表魔法系列2代</h2>
-                                <!-- <span class="products__subtitle">腕出新潮</span> -->
+                                <span class="products__subtitle">腕出新潮</span>
                                 <a href="javascript:;" class="products__image-holder">
                                     <img src="./images/index/home-product-magicwatch2.png" alt="">
                                 </a>
@@ -267,14 +296,34 @@
                     </div>
                 </div>
             </div>
+            <div class="center">
+                <div class="gradient-border">
+                    
+                </div>
+            </div>
         </div>
     </div>
+
+
 
     <!-- --------------------------------------------------------- -->
     <!-- jQuery -->
     <script src="./lib/jquery/jquery-3.4.1.min.js"></script>
     <!-- 首页js -->
     <script src="./js/index.js"></script>
+    <!-- 轮播图 -->
+    <script src="./lib/lbt/js/jquery-1.11.0.min.js"></script>
+    <script src="./lib/lbt/js/jquery.flexslider-min.js"></script>
+    <!-- 初始化 -->
+    <script>
+        // lbt
+        $(document).ready(function () {
+            $('.flexslider').flexslider({
+                directionNav: true,
+                pauseOnAction: false
+            });
+        });
+    </script>
 
 
 
