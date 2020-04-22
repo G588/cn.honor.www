@@ -1,0 +1,458 @@
+body {
+    font-family: 'Avenir Next Regular', Arial, 'PingFang SC', 'Microsoft YaHei', 'ProximaNova';
+    font-size: 14px;
+    background: #fff;
+}
+
+/* 一.导航栏 */
+.header {
+    width: 100%;
+    min-width: 1200px;
+}
+
+.gallery-header {
+    position: fixed;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    /* background: pink; */
+}
+
+/* 左边logo  */
+.gallery-header .site-logo {
+    position: relative;
+    float: left;
+    z-index: 105;
+}
+
+.gallery-header .site-logo img {
+    margin: 26px 35px;
+    width: auto;
+    height: 28px;
+}
+
+/* 中间 */
+.gallery-header .site-navbox {
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    margin-left: -237px;
+
+}
+
+.gallery-header .site-topnav {
+    display: inline-block;
+}
+
+.gallery-header .site-topnav>li {
+    position: relative;
+    float: left;
+    margin-right: 4px;
+    width: 122px;
+}
+
+.gallery-header .site-topnav>li.join-now {
+    margin-right: 0;
+}
+
+.gallery-header ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.icon-ra {
+    display: inline-block;
+}
+
+.gallery-header .site-subnav,
+.gallery-header .site-setting .site-lang,
+.gallery-header .site-setting .account-list {
+    display: none;
+    margin-top: -80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000;
+}
+
+.gallery-header .site-subnav li,
+.gallery-header .site-setting .site-lang li,
+.gallery-header .site-setting .account-list li {
+    line-height: 34px;
+    height: 39px;
+}
+
+.gallery-header ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.gallery-header ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* 二.展示 */
+.dpd {
+    width: 100%;
+    height: 800px;
+    background-color: snow;
+}
+
+.dpd img {
+    width: 100%;
+    height: 800px;
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40.6%;
+    text-align: center;
+    color: #fff;
+    z-index: 101;
+}
+
+.slide-tip {
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.join-now {
+    color: #333;
+    font-size: 22px;
+    padding: 10px 24px;
+    min-width: 24%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 0;
+}
+
+/* 三.分区 */
+.gallery-wall {
+    height: 960px;
+    padding: 50px 0;
+
+}
+
+.gallery-wall .middle {
+    height: 830px;
+    margin: 0 auto;
+    width: 90.54125%;
+    min-height: 400px;
+    color: #fff;
+    background-color: powderblue;
+}
+
+.gallery-wall .middle .gallery-wall-title {
+    position: relative;
+    margin-bottom: 30px;
+    width: auto;
+    height: 60px;
+    color: #000;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gallery-wall .gallery-wall-box {
+    overflow: hidden;
+    margin-bottom: 30px;
+    height: 440px;
+    background-color: sandybrown;
+}
+
+.gallery-wall .month-photos {
+    position: relative;
+    float: left;
+    width: 36.4%;
+    height: 570px;
+    background-color: pink;
+}
+
+.item-month-link img {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-wall .item-box:hover .item-info,
+.gallery-wall .month-photos .item-info,
+.gallery-wall .gallery-blog .item-info {
+    display: block;
+}
+
+.gallery-wall .month-photos .month-info {
+    font-size: 42px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 50px;
+    z-index: 1;
+}
+
+.info-title {
+    margin-bottom: 15px;
+}
+
+.info-content {
+    font-size: 22px;
+}
+
+.month-link {
+    position: absolute;
+    left: 55px;
+    bottom: 156px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.latest-photos {
+    float: left;
+    width: 63.6%;
+    background-color: thistle;
+}
+
+.gallery-wall .latest-item {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.gallery-wall .item-box {
+    position: relative;
+    background-color: #666;
+}
+
+.gallery-wall .item-img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-wall .latest-photos .latest-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 50px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-wall .latest-photos .latest-info .info-title {
+    font-size: 22px;
+    color: #fff;
+}
+
+.gallery-wall .item-info {
+    display: none;
+}
+
+.gallery-wall .latest-photos .latest-info .icon-arrow-circle {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.gallery-icons.icon-arrow-circle {
+    width: 35px;
+    height: 35px;
+    background-position: 0 -201px;
+}
+
+.gallery-icons {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    background-image: url(../images/Youthimage/gallery-icons.png);
+    background-repeat: no-repeat;
+}
+
+.gallery-wall .gallery-wall-box {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.gallery-wall .gallery-blog {
+    position: relative;
+    float: left;
+    width: 36.4%;
+}
+
+.gallery-wall .item-box {
+    position: relative;
+    background-color: #666;
+}
+
+.honor-loading {
+    background-image: url(../images/Youthimage/honor-loading.gif);
+    background-repeat: no-repeat;
+    background-size: 80px auto;
+    background-position: center;
+}
+
+.honor-loading img {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-wall .wall-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.gallery-wall .latest-photos,
+.gallery-wall .gallery-videos {
+    float: left;
+    width: 63.6%;
+}
+
+.gallery-wall .video-item {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 271px;
+    overflow: hidden;
+}
+
+.gallery-wall .video-item .video-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 50px;
+    background-color: rgba(92, 92, 92, 0.6);
+}
+
+.icon-video {
+    margin-left: -14px;
+    transform: scale(0.8);
+}
+
+.icon-video {
+    margin-bottom: 20px;
+}
+
+.info-content {
+    font-size: 18px;
+}
+
+.gallery-icons.icon-video {
+    width: 81px;
+    height: 81px;
+    background-position: 0 -430px;
+}
+
+.gallery-icons {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    background-image: url(../images/Youthimage/gallery-icons.png);
+    background-repeat: no-repeat;
+}
+
+.info {
+    color: #fff;
+    position: absolute;
+    top: 147px;
+}
+
+/* 弹出的视频 */
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.fade.in {
+    opacity: 1;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    /* display: none; */
+    overflow: hidden;
+    outline: 0;
+    background-color: #7172738a;
+}
+
+.sit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1265px;
+    height: 711px;
+    background-color: #000;
+}
+
+.sit video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.video-js {
+    display: block;
+    vertical-align: top;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    padding: 0;
+    font-size: 10px;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

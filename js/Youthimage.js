@@ -1,0 +1,38 @@
+$(function () {
+    // 一.导航栏
+    // 鼠标经过
+    $(".site-topnav>li>a").mouseover(function () {
+        $(".nav-link>p").mouseover(function () {})
+        $(this).siblings("ul").stop().fadeIn();
+    });
+    // 鼠标离开
+    $(".nav-li").mouseout(function () {
+        $(this).find("ul").stop().fadeOut();
+    });
+
+    // 只要鼠标滚动，导航栏变色,否则不变色
+    $(document).scroll(function () {
+        if ($(document).scrollTop() >= 80) {
+            $(".gallery-header").css({
+                background: "#000",
+                zIndex: 999,
+            })
+        } else {
+            $(".gallery-header").css({
+                background: "",
+                zIndex: 0,
+            })
+        }
+    })
+
+    //鼠标移入，遮罩层出现，移出隐藏
+    $(".latest-item").on('mouseover', function () {
+        $(this).find('.latest-info').show()
+    })
+    $(".latest-item").on('mouseout', function () {
+        $(this).find('.latest-info').hide()
+    })
+
+
+
+})

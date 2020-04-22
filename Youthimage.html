@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="荣耀手机青年影像, 青年影像, 荣耀青年影像, 荣耀智能手机相册">
     <meta name="description" content="欢迎访问荣耀智能手机青年影像！上传、收藏、或分享，带着您的荣耀拍照手机赏析美图美景，学习达人拍摄技巧。">
     <meta property="og:title" content="荣耀智能拍照手机青年影像 | 荣耀官网">
@@ -13,9 +13,215 @@
     <link rel="stylesheet" href="./css/reset.css">
     <!-- 青年影像样式 -->
     <link rel="stylesheet" href="./css/Youthimage.css">
+    <!-- 下拉菜单 -->
+    <link rel="stylesheet" href="./lib/animenu/css/normalize.css">
+    <link rel="stylesheet" href="./lib/animenu/css/htmleaf-demo.css">
+    <link rel="stylesheet" href="./lib/animenu/css/style.css">
 </head>
 
 <body>
+    <!-- 一.导航栏 -->
+    <div class="header gallery-header">
+        <!-- 左边logo -->
+        <a href="javascript:;" class="site-logo">
+            <img src="./images/Youthimage/honor_logo_gallery.png" alt="">
+        </a>
+        <!-- 中间 -->
+        <div class="site-navbox">
+            <ul class="site-topnav" data-color="#FFF">
+                <li class="nav-li active">
+                    <a class="nav-link" href="/gallery/cn/">
+                        <span>首页</span>
+                        <span class="icon-ra"></span>
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="javascript:void(0);">
+                        <p>作品</p>
+                        <span class="icon-ra"></span>
+                    </a>
+                    <ul class="site-subnav down-box">
+                        <li>
+                            <a class="subnav-link" data-value="City" href="/gallery/cn/photos/?type=City">
+                                城市韵律
+                            </a>
+                        </li>
+                        <li>
+                            <a class="subnav-link" data-value="Life" href="/gallery/cn/photos/?type=Life">
+                                生活本色
+                            </a>
+                        </li>
+                        <li>
+                            <a class="subnav-link" data-value="Nature" href="/gallery/cn/photos/?type=Nature">
+                                遇见自然
+                            </a>
+                        </li>
+                        <li>
+                            <a class="subnav-link" data-value="Night" href="/gallery/cn/photos/?type=Night">
+                                夜色深处
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="/gallery/cn/collection/">
+                        <span>系列</span>
+                        <span class="icon-ra"></span>
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="javascript:void(0);">
+                        <p>教程</p>
+                        <span class="icon-ra"></span>
+                    </a>
+                    <ul class="site-subnav down-box">
+                        <li>
+                            <a class="subnav-link" data-value="摄影技巧" href="/gallery/cn/how-to-video/?type=摄影技巧">
+                                摄影技巧
+                            </a>
+                        </li>
+                        <li>
+                            <a class="subnav-link" data-value="Blog" href="/gallery/cn/how-to/?type=Blog">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="/gallery/cn/rules/">
+                        <span>规则</span>
+                        <span class="icon-ra"></span>
+                    </a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link" href="/gallery/cn/rules/">
+                        <span>加入</span>
+                        <span class="icon-ra"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+    </div>
+
+    <!-- 二.展示 -->
+    <div class="dpd">
+        <img src="./images/Youthimage/home-gallery-banner-pc-0826-v2.jpg" alt="">
+        <div class="slide-content" style="margin-top: -66px;">
+            <div class="slide-tip" style="color:white"><span>荣耀青年影像 </span><span> </span></div>
+            <button type="button" class="join-now" style="color:black;background-color:white">上传作品</button>
+        </div>
+    </div>
+
+    <!-- 三.分区 -->
+    <div class="gallery-wall">
+        <div class="middle">
+            <div class="gallery-wall-title">
+                <span>荣耀故事</span>
+            </div>
+            <div class="latest-photos-box gallery-wall-box">
+                <!-- 1 -->
+                <div class="month-photos item-box honor-loading">
+                    <a href="" class="item-month-link ">
+                        <img src="./images/Youthimage/hope-01.jpg" alt="">
+                        <div class="wall-info month-info item-info">
+                            <p class="info-title">4月</p>
+                            <p class="info-content">本月精选照片</p>
+                            <p class="month-link">
+                                <span>奖品：荣耀运动蓝牙耳机</span>
+                                <span class="font font-Previous-Page-arrow"></span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!-- 2 -->
+                <ul class="latest-photos">
+                    <li class="latest-item item-box honor-loading">
+                        <a href="javascript:;">
+                            <img src="./images/Youthimage/hope-02.jpg" alt="">
+                            <div class="latest-info item-info">
+                                <p class="info-title">城市韵律</p>
+                                <span class="gallery-icons icon-arrow-circle"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="latest-item item-box honor-loading">
+                        <a href="javascript:;">
+                            <img src="./images/Youthimage/hope-03.jpg" alt="">
+                            <div class="latest-info item-info">
+                                <p class="info-title">生活本色</p>
+                                <span class="gallery-icons icon-arrow-circle"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="latest-item item-box honor-loading">
+                        <a href="javascript:;">
+                            <img src="./images/Youthimage/hope-04.jpg" alt="">
+                            <div class="latest-info item-info">
+                                <p class="info-title">遇见自然</p>
+                                <span class="gallery-icons icon-arrow-circle"></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="latest-item item-box honor-loading">
+                        <a href="javascript:;">
+                            <img src="./images/Youthimage/hope-05.jpg" alt="">
+                            <div class="latest-info item-info">
+                                <p class="info-title">夜色深处</p>
+                                <span class="gallery-icons icon-arrow-circle"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="blog-videos gallery-wall-box">
+                <div class="gallery-blog item-box honor-loading">
+                    <a href="javascript:;">
+                        <img src="./images/Youthimage/hope-06.jpg" alt="">
+                    </a>
+                    <div class="wall-info item-info">
+                        <p class="info-content">荣耀手机摄影技巧</p>
+                    </div>
+
+                </div>
+                <ul class="gallery-videos">
+                    <li class="video-item item-box honor-loading">
+                        <a href="javascript:;">
+                            <img src="./images/Youthimage/hope-07.jpg" alt="">
+                            <div class="video-info item-info">
+                                <span class="gallery-icons icon-video"></span>
+                                <div class="info">如何拍摄黑白照片</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="video-item item-box honor-loading">
+                        <a href="javascript:;">
+                            <img src="./images/Youthimage/hope-08.jpg" alt="">
+                            <div class="video-info item-info">
+                                <span class="gallery-icons icon-video"></span>
+                                <div class="info">如何拍摄INS风照片</div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 弹出的视频 -->
+    <div class="modal fade in">
+        <div class="sit">
+            <video id="galleryWallVideo" class="video-js vjs-default-skin vjs-big-play-centered" muted controls=""
+                autoplay="false" preload="auto" width="100%">
+                <source src="./video/video06.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------- -->
+    <!-- jQuery -->
+    <script src="./lib/jquery/jquery-3.4.1.min.js"></script>
+    <!-- 青年影像js -->
+    <script src="./js/Youthimage.js"></script>
 
 </body>
 
