@@ -6,11 +6,25 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "435978",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e7e5",
+      "unicode_decimal": 59365
+    },
+    {
       "icon_id": "868799",
       "name": "箭头",
       "font_class": "jiantou",
       "unicode": "e65e",
       "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "2718745",
+      "name": "新浪",
+      "font_class": "xinlang",
+      "unicode": "e614",
+      "unicode_decimal": 58900
     },
     {
       "icon_id": "5203294",
@@ -20,6 +34,13 @@
       "unicode_decimal": 58931
     },
     {
+      "icon_id": "5772883",
+      "name": "叉号",
+      "font_class": "fork",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
       "icon_id": "7720065",
       "name": "箭头",
       "font_class": "jiantou1",
@@ -27,11 +48,32 @@
       "unicode_decimal": 58896
     },
     {
+      "icon_id": "7846840",
+      "name": "抖音",
+      "font_class": "icon-douyin",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
       "icon_id": "9402974",
       "name": "个人",
       "font_class": "changyongicon-",
       "unicode": "e619",
       "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "9512547",
+      "name": "上箭头",
+      "font_class": "arrowTop",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "13246042",
+      "name": "头条",
+      "font_class": "toutiao",
+      "unicode": "e77d",
+      "unicode_decimal": 59261
     }
   ]
 }

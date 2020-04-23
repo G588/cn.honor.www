@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <!-- 引入首页样式 -->
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./lib/tab/css/jquery.horizontalmenu.css">
+    <link rel="stylesheet" href="./lib/carousel/css/htmleaf-demo.css">
 </head>
 
 <body class="honor-v2 honor-cn">
@@ -384,8 +384,7 @@
                     </ul>
                     <div class="concat-part">
                         <div class="onlineService">
-                            <a href="javascipt:;"
-                                target="_blank">
+                            <a href="javascript:;">
                                 <span class="service-icon hicon-chat"></span>
                                 <span class="service-title">在线客服</span>
                             </a>
@@ -397,11 +396,12 @@
                         <div class="social-media">
                             <span class="social-title">关注荣耀</span>
                             <span class="itemLists">
-                                <a class="customLink" href="javascipt:;" target="_blank">
-                                    <span class="honor-icon hicon-weibo"></span>
+                                <a class="customLink" href="javascript:;">
+                                    <span class="iconfont">&#xe614;</span>
                                 </a>
                                 <a class="customLink">
-                                    <span class="honor-icon hicon-wechat"></span>
+                                    <span class="iconfont">&#xe7e5;
+                                    </span>
                                     <div class="qrCode" style="display: none;">
                                         <div class="triangle triangleTop"></div>
                                         <div class="qrCodeImg">
@@ -410,12 +410,11 @@
                                         <div class="triangle triangleBottoom"></div>
                                     </div>
                                 </a>
-                                <a class="customLink" href="javascipt:;"
-                                    target="_blank">
-                                    <span class="honor-icon hicon-toutiao"></span>
+                                <a class="customLink" href="javascript:;" target="_blank">
+                                    <span class="iconfont">&#xe77d;</span>
                                 </a>
                                 <a class="customLink">
-                                    <span class="honor-icon hicon-douyin"></span>
+                                    <span class="iconfont">&#xe60e;</span>
                                     <div class="qrCode" style="display: none;">
                                         <div class="triangle triangleTop"></div>
                                         <div class="qrCodeImg">
@@ -447,7 +446,7 @@
     <!-- 返回顶部 -->
     <div class="go-back-top">
         <div class="back-content">
-            <p class="icon hicon-arrow-up"></p>
+            <p class="iconfont">&#xe61c;</p>
             <p class="top-tip">TOP</p>
         </div>
     </div>
@@ -458,11 +457,10 @@
     <!-- 首页js -->
     <script src="./js/index.js"></script>
     <!-- 轮播图 -->
-    <script src="./lib/lbt/js/jquery-1.11.0.min.js"></script>
-    <script src="./lib/lbt/js/jquery.flexslider-min.js"></script>
+    <script src="./lib/carousel/js/jquery-1.11.0.min.js"></script>
+    <script src="./lib/carousel/js/jquery.flexslider-min.js"></script>
     <!-- 初始化 -->
     <script>
-        // lbt
         $(document).ready(function () {
             $('.flexslider').flexslider({
                 directionNav: true,

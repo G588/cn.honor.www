@@ -751,14 +751,60 @@ img {
     padding: 0 10px;
 }
 
+
+.footer-cn .concat-part .service-title {
+    font-size: 18px;
+    font-family: 'Microsoft YaHei';
+    position: relative;
+    top: -3px;
+    left: 5px;
+}
+
+.footer-cn .concat-part .phone-number {
+    font-size: 24px;
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+}
+
+.footer-cn .concat-part {
+    width: 30%;
+    float: left;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.footer-cn .concat-part .social-title {
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.footer-cn .bottom {
+    margin-top: 182px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+}
+
+.itemLists {
+    padding-left: 1px;
+}
+
 /* 返回顶部 */
-.go-back-top{
+.go-back-top {
     position: fixed;
     bottom: 38px;
     right: 20px;
     cursor: pointer;
     z-index: 10;
 }
+
 .back-content {
     position: relative;
     width: 44px;
@@ -771,7 +817,7 @@ img {
 }
 
 .top-tip {
-    margin-top: -18px;
+    margin-top: -9px;
     margin-bottom: 0;
     font-size: 14px;
     transform: none;

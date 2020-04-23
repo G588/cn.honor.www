@@ -33,6 +33,23 @@ $(function () {
         $(this).find('.latest-info').hide()
     })
 
-
+    // 点击显示视频
+    console.log($('.icon-video').eq(0));
+    console.log($(".modal"));
+    $('.icon-video').eq(0).on('click', function () {
+        $(".modal").eq(0).show()
+    })
+    //点击叉号关闭视频
+    $("#chahao").eq(0).on('click', function () {
+        $(".modal").eq(0).hide()
+    })
+    // 点击显示视频
+    $('.icon-video').eq(1).on('click', function () {
+        $(".modal").eq(1).show()
+    })
+    //点击叉号关闭视频
+    $(".sit a").eq(1).on('click', function () {
+        $(".modal").eq(1).hide()
+    })
 
 })
