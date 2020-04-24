@@ -299,7 +299,7 @@ img {
     position: relative;
     height: 655px;
     overflow: hidden;
-    background: url(../images/index/loading.gif) 50% no-repeat;
+    background: url(../images/index/honor-loading.gif) 50% no-repeat;
 }
 
 .slides {
@@ -798,6 +798,7 @@ img {
 
 /* 返回顶部 */
 .go-back-top {
+    display: none;
     position: fixed;
     bottom: 38px;
     right: 20px;

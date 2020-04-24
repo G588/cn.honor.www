@@ -13,11 +13,25 @@
       "unicode_decimal": 59365
     },
     {
+      "icon_id": "692578",
+      "name": "消息",
+      "font_class": "xiaoxi-copy",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
       "icon_id": "868799",
       "name": "箭头",
       "font_class": "jiantou",
       "unicode": "e65e",
       "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "1693098",
+      "name": "大于",
+      "font_class": "icondayu",
+      "unicode": "e50e",
+      "unicode_decimal": 58638
     },
     {
       "icon_id": "2718745",
@@ -53,6 +67,13 @@
       "font_class": "icon-douyin",
       "unicode": "e60e",
       "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "9356544",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e53e",
+      "unicode_decimal": 58686
     },
     {
       "icon_id": "9402974",

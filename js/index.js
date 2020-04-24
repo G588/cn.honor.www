@@ -42,10 +42,19 @@ $(function () { //0
     })
 
     // 返回顶部
-        $(".go-back-top").click(function () {
-            $('html,body').stop().animate({
-                'scrollTop': 0
-            })
+    $(".go-back-top").click(function () {
+        $('html,body').stop().animate({
+            'scrollTop': 0
         })
+    })
+
+    //如果滚动出去的距离大于100，就显示返回顶部按钮
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 100) {
+            $(".go-back-top").show()
+        } else {
+            $(".go-back-top").hide()
+        }
+    })
 
 }) //0

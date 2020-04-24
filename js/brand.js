@@ -1,4 +1,4 @@
-$(function () { //1
+$(function () { //0
     // 一.导航栏
     // 鼠标移入导航栏下拉出内容 
     $(".has-child").mouseenter(function (e) {
@@ -26,4 +26,20 @@ $(function () { //1
         })
     })
 
-}) //1
+    // 返回顶部
+    $(".go-back-top").click(function () {
+        $('html,body').stop().animate({
+            'scrollTop': 0
+        })
+    })
+
+    //如果滚动出去的距离大于100就显示返回顶部按钮
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 100) {
+            $(".go-back-top").show()
+        } else {
+            $(".go-back-top").hide()
+        }
+    })
+
+}) //0
