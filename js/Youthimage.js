@@ -20,7 +20,7 @@ $(function () {
         } else {
             $(".gallery-header").css({
                 background: "",
-                zIndex: 0,
+                zIndex: 999,
             })
         }
     })
@@ -32,24 +32,48 @@ $(function () {
     $(".latest-item").on('mouseout', function () {
         $(this).find('.latest-info').hide()
     })
-
+    var myVid = document.getElementById("video")
     // 点击显示视频
     console.log($('.icon-video').eq(0));
     console.log($(".modal"));
     $('.icon-video').eq(0).on('click', function () {
         $(".modal").eq(0).show()
+        //视频播放
+        $('video').trigger('play');
     })
     //点击叉号关闭视频
     $("#chahao").eq(0).on('click', function () {
         $(".modal").eq(0).hide()
+        // 视频暂停
+        $('video').trigger('pause');
     })
     // 点击显示视频
     $('.icon-video').eq(1).on('click', function () {
         $(".modal").eq(1).show()
+        //视频播放
+        $('video').trigger('play');
     })
     //点击叉号关闭视频
     $(".sit a").eq(1).on('click', function () {
         $(".modal").eq(1).hide()
+        // 视频暂停
+        $('video').trigger('pause');
+    })
+
+    // 返回顶部
+    $(".go-back-top").click(function () {
+        $('html,body').stop().animate({
+            'scrollTop': 0
+        })
+    })
+
+    //如果滚动出去的距离大于100，就显示返回顶部按钮
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 100) {
+            $(".go-back-top").show()
+        } else {
+            $(".go-back-top").hide()
+        }
     })
 
 })

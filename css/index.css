@@ -398,19 +398,6 @@ img {
     margin-top: 20px;
 }
 
-/* .gradient-shadow__hover {
-    width: 333px;
-    height: 435px;
-    background-color: beige;
-}
-
-.gradient-shadow__hove:hover {
-    width: 100%;
-    position: relative;
-    background: url(../images/index/mb-color-bg.png) no-repeat bottom;
-    background-size: contain;
-} */
-
 .products__content {
     position: relative;
     z-index: 2;
@@ -444,13 +431,18 @@ img {
 }
 
 .products__image-holder {
+    padding-left: 28px;
+    height: 350px;
     width: 298px;
+    display: block;
 }
 
 .products__image-holder img {
     width: 230px;
     height: 230px;
     margin-top: 33px;
+    transition: .3s ease-in-out;
+    z-index: 1;
 }
 
 .products__image-holder img:nth-child(7) {
@@ -458,6 +450,12 @@ img {
     height: 230px;
 }
 
+.products__image-holder>img:hover {
+    width: 250px;
+    height: 250px;
+    transition: .3s ease-in-out;
+    z-index: 1;
+}
 
 /* 四.展示区 */
 .c03-pc-campaign-list-section {
@@ -580,6 +578,12 @@ img {
     background: url(../images/index/button-gradient-bg.png) top center/cover no-repeat;
     position: relative;
     z-index: 10;
+}
+
+.honor-cn .gradient-border:hover {
+    background: transparent;
+    -webkit-box-shadow: inset 0 0 0 1px #000;
+    box-shadow: inset 0 0 0 1px #000;
 }
 
 .gradient-border__link {
