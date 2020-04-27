@@ -139,7 +139,73 @@
                         class="input"></textarea><span class="btn">发表评论</span></div>
             </div>
         </div>
+        <div class="enter-box">
+            <div id="enter-btn" class="enter-btn"></div>
+            <div id="lottery-btn" class="lottery-btn"></div>
+            <p class="title">ACTIVITY AREA</p>
+            <p class="title">参与游戏赢取30系列新品手机</p>
+            <div style="height: 11.3rem;"></div>
+            <p class="title-w">荣耀30系列</p>
+            <p class="title-w">各大平台同步开始预约</p>
+            <div class="enter-list">
+                <a href="javascript:;">
+                    <img src="./images/honour/on-01.png" class="enter-item">
+                </a>
+                <a href="javascript:;">
+                    <img src="./images/honour/on-02.png" class="enter-item">
+                </a>
+                <a href="javascript:;">
+                    <img src="./images/honour/on-03.png" class="enter-item">
+                </a>
+                <a href="javascript:;">
+                    <img src="./images/honour/on-04.png" class="enter-item">
+                </a>
+                <a href="javascript:;">
+                    <img src="./images/honour/on-05.png" class="enter-item">
+                </a>
+                <a href="javascript:;">
+                    <img src="./images/honour/on-06.png" class="enter-item">
+                </a>
+            </div>
+            <!-- 中奖名单 -->
+            <div class="layui-layers">
+                <img src="./images/honour/lottery.png" style="height: 9rem;">
+            </div>
+        </div>
+        <!-- 轮播图 -->
+        <div class="swiper-box">
+            <p class="title">INFORMATION ZONE</p>
+            <p class="title">新鲜资讯</p>
+            <div class="carousel-box">
+                <div class="poster-main" id="carousel" data-setting='{
+        "width":1234,
+        "height":300,
+        "posterWidth":600,
+        "posterHeight":300,
+        "scale":0.8,
+        "speed":600,
+        "autoPlay":true,
+        "delay":3000,
+        "verticalAlign":"middle"
+        }'>
+                    <div class="poster-btn poster-prev-btn"></div>
+                    <ul class="poster-list">
+                        <li class="poster-item"><a href="#"><img src="./images/honour/ps1.png" alt=""
+                                    width="100%" /></a></li>
+                        <li class="poster-item"><a href="#"><img src="./images/honour/ps2.png" alt=""
+                                    width="100%" /></a></li>
+                        <li class="poster-item"><a href="#"><img src="./images/honour/ps3.png" alt=""
+                                    width="100%" /></a></li>
+                        <li class="poster-item"><a href="#"><img src="./images/honour/ps4.png" alt=""
+                                    width="100%" /></a></li>
+                    </ul>
+                    <div class="poster-btn poster-next-btn"></div>
+                </div>
+            </div>
+
+        </div>
     </div>
+
     <!-- 隐藏的内容  -->
     <div class="layui-layer layer-anim layui-layer-page layui-layer-nobg" id="layui-layer12" type="page" times="12"
         showtime="0" contype="object">
@@ -153,14 +219,179 @@
         </span>
     </div>
 
+    <!--弹出的输入框 -->
+    <div class="el-dialog__wrapper">
+        <div class="el-dialog">
+            <div class="el-dialog__header">
+                <span class="el-dialog__title">请输入用户信息</span>
+            </div>
+            <div class="el-dialog__body">
+                <form action="" class="el-form">
+                    <div class="el-form-item is-required">
+                        <label for="name" class="el-form-item__label" style="width: 1rem;">姓名</label>
+                        <div class="el-form-item__content" style="margin-left: 1rem;">
+                            <div class="el-input" style="width: 80%;">
+                                <input type="text" autocomplete="off" class="el-input__inner">
+                            </div>
+                            <div class="el-form-item__error">
+                                请输入姓名
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="el-form-item is-required">
+                        <label for="name" class="el-form-item__label" style="width: 1rem;">手机</label>
+                        <div class="el-form-item__content" style="margin-left: 1rem;">
+                            <div class="el-input" style="width: 80%;">
+                                <input type="text" autocomplete="off" class="el-input__inner">
+                            </div>
+                            <div class="el-form-item__error">
+                                请输入手机号
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="el-dialog__footer">
+                    <div class="dialog-footer">
+                        <button type="button" class="el-button el-button--default">
+                            <span>取 消</span></button>
+                        <button type="button" class="el-button el-button--primary">
+                            <span>确 定</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 五.服务 -->
+    <div class="footer">
+        <div class="footer-box footer-cn">
+            <div class="wrapper container-fluid">
+                <div class="col-md-12 np">
+                    <ul class="more5">
+                        <li>
+                            <h3><span class="cnplus"></span>推荐产品</h3>
+                            <div class="item-link ">
+                                <a href="javascript:;">手机</a>
+                                <a href="javascript:;">笔记本</a>
+                                <a href="javascript:;">平板</a>
+                                <a href="javascript:;">智慧屏</a>
+                                <a href="javascript:;">智能穿戴</a>
+                                <a href="javascript:;">智能家庭</a>
+                                <a href="javascript:;">配件</a>
+                                <a href="javascript:;">荣耀亲选</a>
+                            </div>
+                            <div class="app-plus-icon">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3><span class="cnplus"></span>品牌</h3>
+                            <div class="item-link ">
+                                <a href="javascript:;">关于荣耀</a>
+                                <a href="javascript:;" target="_blank">青年影像</a>
+                                <a href="javascript:;">新闻</a>
+                                <a href="javascript:;">活动</a>
+                                <a href="javascript:;">视频</a>
+                                <a href="javascript:;">品牌资源</a>
+                            </div>
+                            <div class="app-plus-icon">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3><span class="cnplus"></span>购买渠道</h3>
+                            <div class="item-link ">
+                                <a href="javascript:;">华为商城</a>
+                                <a href="javascript:;">荣耀亲选</a>
+                            </div>
+                            <div class="app-plus-icon">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3><span class="cnplus"></span>服务支持</h3>
+                            <div class="item-link ">
+                                <a href="javascript:;">保修政策</a>
+                                <a href="javascript:;">保修期及权益查询</a>
+                                <a href="javascript:;">备件价格查询</a>
+                                <a href="javascript:;">服务进度查询</a>
+                                <a href="javascript:;">联系我们</a>
+                            </div>
+                            <div class="app-plus-icon">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3><span class="cnplus"></span>快速链接</h3>
+                            <div class="item-link ">
+                                <a href="javascript:;">伙伴通</a>
+                                <a href="javascript:;">花粉俱乐部</a>
+                                <a href="javascript:;">华为云</a>
+                                <a href="javascript:;">华为开发者联盟</a>
+                                <a href="javascript:;">网站地图</a>
+                            </div>
+                            <div class="app-plus-icon">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="concat-part">
+                        <div class="onlineService">
+                            <a href="javascript:;">
+                                <span class="service-title">在线客服</span>
+                            </a>
+                        </div>
+                        <div class="phone-part">
+                            <div class="phone-number">消费者服务热线 950800</div>
+                            <div class="phone-description"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 bottom">
+                    <div class="link">
+                        <a href="javascript:;">法律声明</a>
+                        <a href="javascript:;">隐私声明</a>
+                        <a href="javascript:;">免责条款</a>
+                        <a href="javascript:;">关于cookies</a>
+                    </div>
+                    <div class="copyright">Copyright © 2011-2020 华为终端有限公司 版权所有 保留一切权利 | <a target="_blank"
+                            href="javascipt:;">
+                            <img src="./images/index/ghs.png"><span>苏公网安备
+                                32011402010006号</span></a> <a target="_blank"
+                            href="javascipt:;"><span>粤ICP备19015064号</span></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 返回顶部 -->
+    <div class="go-back-top">
+        <div class="back-content">
+            <p class="iconfont">&#xe61c;</p>
+            <p class="top-tip">TOP</p>
+        </div>
+    </div>
+
     <!----------------------------------------------------->
     <!-- jQuery -->
     <script src="./lib/jquery/jquery-3.4.1.min.js"></script>
     <!-- 荣耀30 -->
     <script src="./js/honour.js"></script>
-    <!-- rem -->
-    <!-- <script src="./lib/arithmetic-rem/flexible_css.debug.js"></script>
-    <script src="./lib/arithmetic-rem/flexible.debug.js"></script> -->
+    <!-- 轮播图 -->
+    <script src="./lib/merry-go-round/js/jquery-1.9.1.min.js"></script>
+    <script src="./lib/merry-go-round/js/Carousel.js"></script>
+    <!-- 初始化 -->
+    <script>
+        $(function () {
+            Carousel.init($("#carousel"));
+            $("#carousel").init();
+        });
+    </script>
 </body>
 
 </html>

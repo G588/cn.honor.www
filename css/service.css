@@ -1,0 +1,176 @@
+.honor-cn {
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Microsoft Yahei", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    line-height: 24px;
+    overflow-x: hidden;
+    background-color: azure;
+}
+
+.honor-cn * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 导航栏 */
+.header {
+    width: 100%;
+    min-width: 1200px;
+}
+
+.header-v2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 69px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    z-index: 1001;
+}
+
+.honor-cn .ho-middle {
+    position: static;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    /* display: -webkit-flex; */
+    display: -moz-flex;
+    display: flex;
+    margin: 0 20px;
+    height: 67px;
+    line-height: 0;
+}
+
+/* 左边的logo */
+@media screen and (max-width: 1366px) {
+    .header-v2 .honor-logo {
+        width: 126px;
+        letter-spacing: 4px;
+    }
+}
+
+.header-v2 .honor-logo {
+    float: left;
+    width: 141px;
+    height: 27px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.honor-cn img {
+    max-width: 100%;
+}
+
+/* 中间的内容 */
+@media screen and (max-width: 1366px) {
+    .header-v2 .header-nav {
+        width: 830px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .header-v2 .header-nav {
+        width: 955px;
+    }
+}
+
+.header-v2 .header-nav {
+    position: static;
+    display: inline-block;
+    height: 67px;
+    background-color: #000;
+    width: 1024px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -o-justify-content: center;
+    margin: 0 auto;
+}
+
+.header-nav li {
+    padding: 0 30px;
+}
+
+.header-v2 .header-nav .main-nav .subnav-title>a {
+    line-height: 67px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.header-v2 .header-nav li .subnav-title>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 67px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* 右边内容  */
+.header-right {
+    width: 152px;
+    height: 67px;
+}
+
+.si {
+    float: left;
+    margin-left: 62px;
+    width: 40px;
+    height: 67px;
+    padding-top: 33px;
+    margin-right: 9px;
+}
+
+.st {
+    float: left;
+    width: 40px;
+    height: 67px;
+    padding-top: 33px;
+}
+
+/* 字体图标 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.linear-line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to left, #0ff, #00b1ff 33%, #bd00fe 69%, #ff00d0);
+}
+.conv3_wrap {
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 2.1主题  */
