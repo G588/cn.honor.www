@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>备件价格</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60"></rect>
+    </defs>
+    <g id="更多服务已完成" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="更多功能服务功能1" transform="translate(-839.000000, -594.000000)">
+            <g id="备件价格" transform="translate(839.000000, 594.000000)">
+                <g>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="Group-65" mask="url(#mask-2)" fill-rule="nonzero">
+                        <g transform="translate(8.424316, 6.316699)">
+                            <path d="M42,9 C42,4.97963806 32.9288811,1.2 21.5996682,1.2 C10.2710124,1.2 1.2,4.97967388 1.2,9 C1.2,13.0203261 10.2710124,16.8 21.5996682,16.8 C32.9288811,16.8 42,13.0203619 42,9 Z" id="路径" stroke="#323232" stroke-width="2.4" fill="none"></path>
+                            <path d="M1.2,18 C1.2,23.7837708 10.4071428,27.770936 21.5997096,27.770936 C32.7927726,27.770936 42,23.7838188 42,18" id="路径" stroke="#323232" stroke-width="2.4" fill="none"></path>
+                            <path d="M1.2,28.8 C1.2,34.5837708 10.4071428,38.570936 21.5997096,38.570936 C32.7927726,38.570936 42,34.5838188 42,28.8" id="路径" stroke="#323232" stroke-width="2.4" fill="none"></path>
+                            <path d="M1.2,38.4 C1.2,44.1837708 10.4071428,48.170936 21.5997096,48.170936 C32.7927726,48.170936 42,44.1838188 42,38.4" id="路径" stroke="#323232" stroke-width="2.4" fill="none"></path>
+                            <polygon id="Line-2" stroke="none" fill="#323232" points="0 8.4 0 38.7130312 2.4 38.7130312 2.4 8.4"></polygon>
+                            <polygon id="Line-2" stroke="none" fill="#323232" points="40.8 8.40150549 40.8111293 39.2241555 43.2 39.22265 43.1888707 8.4"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>分组 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="99.5314758%" y1="49.5314758%" x2="0.468524205%" y2="49.5314758%" id="linearGradient-1">
+            <stop stop-color="#00B1FF" offset="0%"></stop>
+            <stop stop-color="#BD00FE" offset="54.558797%"></stop>
+            <stop stop-color="#FF00D0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="维修进度查询" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分组-2" transform="translate(0.500000, 0.000000)">
+            <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+            <g id="Icon-Group" transform="translate(2.000000, 4.500000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                <path d="M16,5.5000712 C16,5.36664107 15.9249997,5.18798933 15.8499993,5.10204451 L11.5833135,0.180987264 C11.3843552,-0.042903472 11.0614444,-0.0689098121 10.8291501,0.158373559 C10.6218585,0.360779538 10.6166478,0.756542541 10.808318,0.977031958 L14.2333974,4.9211146 L0.533335733,4.9211146 C0.238534407,4.9211146 0,5.18005774 0,5.50006251 C0,5.82006729 0.238542407,6.07901043 0.533335733,6.07901043 L14.2333974,6.07901043 L10.808318,10.0230931 C10.6166504,10.2435912 10.6301918,10.6291965 10.8291501,10.8417544 C11.039567,11.0656451 11.3874992,11.0464211 11.5833135,10.8191407 L15.8499993,5.89808341 C15.9749999,5.76465329 15.9979173,5.63574764 16,5.50005673 L16,5.5000712 Z" id="↳-Icon-Style"></path>
+            </g>
+        </g>
+    </g>
+</svg>

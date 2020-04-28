@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>服务中心</title>
+    <desc>Created with Sketch.</desc>
+    <g id="更多服务已完成" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="更多功能服务功能1" transform="translate(-1344.000000, -1114.000000)">
+            <g id="服务中心" transform="translate(1344.000000, 1114.000000)">
+                <g transform="translate(7.000000, 4.500000)" stroke="#323232" stroke-width="2.4">
+                    <path d="M22.6,29.3 C17.6294373,29.3 13.6,25.2705627 13.6,20.3 C13.6,15.3294373 17.6294373,11.3 22.6,11.3 C27.5705627,11.3 31.6,15.3294373 31.6,20.3 C31.6,25.2705627 27.5705627,29.3 22.6,29.3 Z" id="路径"></path>
+                    <path d="M0.40003867,22.067247 C0.429294657,10.5073645 9.02152703,0.5 22.5997847,0.5 C36.1780424,0.5 44.8326099,8.9967421 44.7995308,22.067247 C44.7774781,30.7809169 37.3360572,39.9918346 22.4752684,49.7 C7.73894458,38.984753 0.380534679,29.7738353 0.40003867,22.067247 Z" id="路径-2"></path>
+                </g>
+                <rect id="矩形" x="0" y="0" width="60" height="60"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

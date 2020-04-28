@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="-1.13686838e-13" width="60" height="60"></rect>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1荣耀服务官网首页样式一-copy" transform="translate(-542.000000, -1914.000000)">
+            <g id="Group-3" transform="translate(542.000000, 1914.000000)">
+                <g id="预约服务">
+                    <g id="Group-2">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g mask="url(#mask-2)" id="Group-9">
+                            <g transform="translate(8.089643, 7.536039)">
+                                <g>
+                                    <path d="M2.304,0 L40.8771059,0 C42.1495699,-2.33747856e-16 43.1811059,1.03153594 43.1811059,2.304 L43.1811059,41.9843137 C43.1811059,43.2567778 42.1495699,44.2883137 40.8771059,44.2883137 L2.304,44.2883137 C1.03153594,44.2883137 2.37627795e-15,43.2567778 2.22044605e-15,41.9843137 L0,2.304 C-1.55831904e-16,1.03153594 1.03153594,2.45419391e-15 2.304,2.22044605e-15 Z" id="Rectangle-8" stroke="#323232" stroke-width="2.4" fill-rule="nonzero"></path>
+                                    <path d="M21.5905529,37.2424456 C15.2125282,37.2424456 10.0421176,32.0599828 10.0421176,25.6670909 C10.0421176,19.274199 15.2125282,14.0917362 21.5905529,14.0917362 C27.9685776,14.0917362 33.1389882,19.274199 33.1389882,25.6670909 C33.1389882,32.0599828 27.9685776,37.2424456 21.5905529,37.2424456 Z" id="路径" stroke="#323232" stroke-width="2.4" fill-rule="nonzero"></path>
+                                    <polyline id="路径" stroke="#323232" stroke-width="2.4" stroke-linecap="round" fill-rule="nonzero" points="28.8076902 27.1815044 21.6804646 27.1815044 21.6804646 20.1310517"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path d="M8.58823529,14.627451 L51.2707276,14.627451" id="路径-5" stroke="#323232" stroke-width="2.4" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

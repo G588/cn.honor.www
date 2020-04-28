@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>保修及权益查询</title>
+    <desc>Created with Sketch.</desc>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="保修及权益查询">
+            <rect id="矩形" x="0" y="0" width="60" height="60"></rect>
+            <g id="资源-1" transform="translate(9.000000, 4.500000)" stroke="#323232" stroke-width="2.35384615">
+                <path d="M20.4878049,44.37 L2.04878049,44.37 C0.917270268,44.37 2.27460327e-16,43.5162264 0,42.4630435 L0,2.41695652 C-1.13730163e-16,1.36377352 0.917270268,0.51 2.04878049,0.51 L34.8292683,0.51 C35.9607785,0.51 36.8780488,1.36377352 36.8780488,2.41695652 L36.8780488,29.4957391" id="路径" stroke-linecap="round"></path>
+                <path d="M5.8697561,12.3522 L28.1092683,12.3522" id="路径" stroke-linecap="round"></path>
+                <path d="M5.8697561,21.573 L28.1092683,21.573" id="路径" stroke-linecap="round"></path>
+                <path d="M5.8697561,30.7938 L19.1458537,30.7938" id="路径" stroke-linecap="round"></path>
+                <path d="M36.5502439,45.7878 L41.2112195,50.3778" id="路径" stroke-linecap="round"></path>
+                <ellipse id="椭圆形" cx="31.7663415" cy="40.6062" rx="6.93512195" ry="6.9054"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
