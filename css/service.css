@@ -167,6 +167,7 @@
     height: 2px;
     background-image: linear-gradient(to left, #0ff, #00b1ff 33%, #bd00fe 69%, #ff00d0);
 }
+
 .conv3_wrap {
     min-width: 320px;
     margin: 0 auto;
@@ -174,3 +175,75 @@
 }
 
 /* 2.1主题  */
+.support-search-box {
+    height: 520px;
+    background-image: url(../images/service/banner-pc.png);
+}
+
+.search-banner-component .v3-search-title-tip {
+    text-align: center;
+    width: 100%;
+    padding-top: 170px;
+    padding-bottom: 4px;
+}
+
+.search-banner-component .v3-search-title-tip .v3-s-title {
+    font-size: 44px;
+    line-height: 48px;
+}
+
+.search-banner-component .v3-search-title-tip .v3-s-tip {
+    font-size: 32px;
+    line-height: 1.5;
+    margin-top: 24px;
+}
+
+.honor-cn h1,
+.honor-cn h2,
+.honor-cn h3,
+.honor-cn h4,
+.honor-cn h5,
+.honor-cn h6 {
+    font-family: "Microsoft Yahei", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+/* 2 */
+
+.search-banner-component .v3-search-input {
+    background-color: white;
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 38px;
+    cursor: pointer;
+    position: relative;
+}
+
+.v3-search-input {
+    border-radius: 26.5px;
+    width: 640px;
+    height: 53px;
+    background: linear-gradient(to right, #ed4ede, #5b72f0, #49f9fc);
+}
+
+.v3-search-input:before {
+    background: url(../fonts/v3-icons.svg) -279px -56px;
+    left: 15px;
+    top: 16px;
+    transform: scale(0.9);
+    opacity: .6;
+    z-index: 1;
+}
+.search-banner-component .v3-search-input:before {
+    content: "";
+    background: url(../fonts/v3-icons.svg) -279px -56px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    opacity: .5;
+}
