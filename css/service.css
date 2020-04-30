@@ -304,6 +304,206 @@ h3[class^="v3-"] {
     font-weight: bold;
 }
 
+/* 商品滚动展示  */
+.v3-s-cn-products .swiper-container {
+    width: 1214px;
+    height: 285px;
+    margin-top: 40px;
+}
+
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.swiper-wrapper {
+    width: 4444px;
+    height: 215px;
+}
+
+.swiper-slide {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    /* background-color: bisque; */
+}
+
+.v3-s-cn-products .swiper-wrapper .v3-s-cn-product-select-content {
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.v3-s-cn-products .swiper-wrapper .v3-s-cn-product-select-content .v3-s-cn-product-select-type-img {
+    height: 80px;
+    position: absolute;
+    top: 17.67%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.v3-s-cn-products .swiper-wrapper .v3-s-cn-product-select-content .v3-s-cn-product-select-type-img img {
+    height: 100%;
+}
+
+.v3-s-cn-products .swiper-wrapper .v3-s-cn-product-select-content .v3-s-cn-product-select-type-title {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 10px;
+    font-size: 18px;
+    color: #232323;
+    line-height: 32px;
+}
+
+.v3-s-cn-products .swiper-wrapper .swiper-slide .v3-s-cn-products-shadow {
+    visibility: hidden;
+    width: 100%;
+    position: absolute;
+    bottom: -45px;
+}
+
+.v3-s-cn-products .swiper-wrapper .swiper-slide .v3-s-cn-products-shadow img {
+    width: 100%;
+}
+
+.v3-s-cn-products .swiper-wrapper .swiper-slide:hover .v3-s-cn-products-shadow {
+    visibility: visible;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    z-index: -1;
+    opacity: 1;
+}
+
+.v3-s-cn-products .swiper-wrapper .swiper-slide .v3-s-cn-products-shadow {
+    visibility: hidden;
+    width: 100%;
+    position: absolute;
+    bottom: -45px;
+
+}
+
+
+.sd {
+    z-index: 2;
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(to right, #ff00d0, #4e73ff, #00b1ff, #0ff);
+    border-image-slice: 1;
+}
+
+.swiper-slide-active:after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 7.8px solid transparent;
+    /* border-top: 14px solid #fff; */
+    border-right: 7.8px solid transparent;
+    transform: translateX(-50%);
+}
+
+.pox::after {
+    border-top: 14px solid #fff !important;
+}
+
+/* 导航按钮 */
+.swiper-button-prev {
+    left: -11px;
+    background: url(../images/service/left.svg) center center no-repeat;
+    margin-top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.swiper-button-next {
+    right: 0;
+    background: url(../images/service/right.svg) center center no-repeat;
+    margin-top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+/* 下部展示 */
+.topsel{
+    width: 1214px;
+    height: 500px;
+    background-color: thistle;
+    margin: 0 auto;
+}
+.v3-s-cn-type-content-type-item {
+    text-align: center;
+    padding: 0 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.v3-s-cn-type-content-type-item-container {
+    background-color: #fff;
+    width: 294px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    z-index: 2;
+    position: relative;
+}
+.v3-s-cn-type-content-type-item-img {
+    height: 180px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.v3-s-cn-type-content-type-item-img img {
+    height: 100%;
+    max-width: 100%;
+}
+.v3-s-cn-type-content-type-item-text {
+    margin-top: 36px;
+}
+.v3-s-cn-type-content-type-item-title {
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    padding: 0 26px;
+}
+.v3s{
+    display: none;
+    position: absolute;
+    width: 380px;
+    height: 467px;
+    bottom: -48px;
+    left: -39px;
+}
+.v3s img {
+    width: 100%;
+}
+
+
+
 /* 2.3服务指南 */
 .v3-s-cn-service-section {
     padding: 60px 0;

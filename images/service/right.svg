@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>右移动</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.468524205%" y1="49.5314758%" x2="99.5314758%" y2="49.5314758%" id="linearGradient-1">
+            <stop stop-color="#00FFFF" offset="0%"></stop>
+            <stop stop-color="#00B1FF" offset="39.806799%"></stop>
+            <stop stop-color="#4E73FF" offset="70.953864%"></stop>
+            <stop stop-color="#FF00D0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.468524205%" y1="49.5314758%" x2="99.5314758%" y2="49.5314758%" id="linearGradient-2">
+            <stop stop-color="#00FFFF" offset="0%"></stop>
+            <stop stop-color="#00B1FF" offset="39.806799%"></stop>
+            <stop stop-color="#4E73FF" offset="70.953864%"></stop>
+            <stop stop-color="#FF00D0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1荣耀服务官网首页" transform="translate(-1357.000000, -1225.000000)">
+            <g id="右移动" transform="translate(1357.000000, 1225.000000)">
+                <rect id="矩形" x="0" y="0" width="60" height="60"></rect>
+                <g id="Icons-/-Arrow-/-Down-Copy" transform="translate(30.000000, 30.000000) scale(-1, 1) rotate(90.000000) translate(-30.000000, -30.000000) translate(6.000000, 6.000000)">
+                    <g id="Oval" fill="#FFFFFF">
+                        <g id="path-1-link">
+                            <circle id="path-1" cx="24" cy="24" r="24"></circle>
+                        </g>
+                    </g>
+                    <g id="Icon-Group" transform="translate(16.340426, 20.425532)" fill="url(#linearGradient-2)" fill-rule="nonzero">
+                        <polygon id="↳-Icon-Style" transform="translate(7.148936, 4.595745) rotate(90.000000) translate(-7.148936, -4.595745) " points="4.36539098 -2.0425527 3.06396228 -0.784783711 8.6294651 4.59573916 3.06382989 9.97627405 4.36525859 11.2340431 11.2340427 4.59568128"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
