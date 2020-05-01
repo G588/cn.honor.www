@@ -1,0 +1,164 @@
+/* 一.主题  */
+.banner-slideshow {
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner-slideshow img {
+    width: 118%;
+}
+
+/* 二.固定导航 */
+.mod-fixednav .mod27-nav {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+.mod-fixednav .mod27-nav ul {
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
+.clearfix {
+    margin: 0 auto;
+    height: 50px;
+    width: 1200px;
+    line-height: 50px;
+}
+
+.mod27-nav li {
+    float: left;
+    top: 0;
+    text-align: center;
+    height: 100%;
+}
+
+.mod27-nav li.current a {
+    color: #61aaff;
+    background: no-repeat center center #ffffff;
+}
+
+.mod27-nav li.current a {
+    background-color: #fff;
+    color: #333;
+}
+
+.mod27-nav li a {
+    display: block;
+    text-align: center;
+    font-size: 0;
+    color: #fff;
+}
+
+.mod27-nav li a div {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.2em;
+    min-height: 17px;
+    background-size: 27px 27px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mod27-nav li a div span {
+    display: block;
+    max-height: 2.4em;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: pre-line;
+}
+
+/* 三.好物推荐  */
+.pic-wrap {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pic-wrap img {
+    margin-left: -19%;
+    overflow: hidden;
+}
+
+.J_anchors {
+    position: absolute;
+    width: 1920px;
+    height: 0;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 2;
+    top: 0;
+}
+
+.mod22-carnival-coupons {
+    width: 100%;
+}
+
+/* 轮播图 */
+.banner-slideshow {
+    width: 100%;
+
+    position: relative;
+}
+
+.ec-slider {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.ec-slider ul li {
+    float: left;
+}
+
+.ec-slider ul li:first-child {
+    display: block;
+}
+
+.ec-slider ol li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.ec-slider ol li.current {
+    background-color: red;
+}
+
+
+#banner {
+	width:500px;
+	height:300px;
+	overflow:hidden
+}
+#banner ul {
+	height:100%;
+}
+#banner ul li {
+	width:500px;
+	height:100%;
+	float:left
+}
+#banner ul li img {
+	width:100%;
+	height:100%;
+}
