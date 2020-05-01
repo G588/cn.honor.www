@@ -21,14 +21,43 @@ $(function () { //0
     $(".swiper-slide").on('click', function () {
         $(this).toggleClass('sd').siblings().removeClass('sd')
         $(this).toggleClass('pox').siblings().removeClass('pox')
+        var index = $(this).index()
+        console.log(index);
+        $('.topsel').hide()
+        $('.topsel').eq(index).toggle()
+    })
+    //鼠标移入移出，服务活动部分变化
+    $(".v3-card-body").on('mouseover', function () {
+        $(this).css({
+            paddingBottom: 39
+        })
+        $(this).find(".activities-find-more-cn").css({
+            opacity: 1
+        })
+
+    })
+    $(".v3-card-body").on('mouseout', function () {
+        $(this).css({
+            paddingBottom: 15
+        })
+        $(this).find(".activities-find-more-cn").css({
+            opacity: 0
+        })
     })
 
-$(".v3-s-cn-type-content-type-item ").on('mouseenter',function(){
-    $(".v3s").toggle()
-})
+        // 返回顶部
+        $(".go-back-top").click(function () {
+            $('html,body').stop().animate({
+                'scrollTop': 0
+            })
+        })
 
-
-
-
+    //如果滚动出去的距离大于100就显示返回顶部按钮
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 100) {
+            $(".go-back-top").show()
+        } else {
+            $(".go-back-top").hide()
+        }
+    })
 }) //0
-

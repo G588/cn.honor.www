@@ -574,7 +574,7 @@ body.honor-v2>div>.content {
     margin-top: 2.6vw;
 }
 
-
+/* 六，底部 */
 .footer {
     width: 100%;
     min-width: 1200px;
@@ -636,7 +636,6 @@ body.honor-v2>div>.content {
     line-height: 26px;
 }
 
-/* 五.服务 */
 .footer {
     width: 100%;
     min-width: 1200px;
