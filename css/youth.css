@@ -120,7 +120,6 @@
     overflow: hidden;
     width: 1200px;
     height: 200px;
-    background-color: pink;
 }
 
 .ec-slider ul li {
@@ -129,6 +128,13 @@
 
 .ec-slider ul li:first-child {
     display: block;
+}
+
+.ec-slider ol {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
 }
 
 .ec-slider ol li {
@@ -145,20 +151,92 @@
 }
 
 
-#banner {
-	width:500px;
-	height:300px;
-	overflow:hidden
+/* 七.签到有礼 */
+.sign-content {
+    position: relative;
+    background: url(../images/youth/lo-11.png) no-repeat center center;
+    width: 1200px;
+    height: 310px;
+    background-color: pink;
+    margin: 0 auto;
+
 }
-#banner ul {
-	height:100%;
+
+.sign-content-text {
+    color: #f3625a;
+    position: absolute;
+    top: 183px;
+    left: 85px;
+    width: 500px;
+    font-size: 18px;
+    text-align: center;
 }
-#banner ul li {
-	width:500px;
-	height:100%;
-	float:left
+
+.sign-btn-wrapper {
+    position: absolute;
+    top: 43px;
+    left: 281px;
 }
-#banner ul li img {
-	width:100%;
-	height:100%;
+
+.sign-btn {
+    background: url(../images/youth/lo-12.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+    display: block;
+    width: 112px;
+    height: 112px;
+    line-height: 112px;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-schedule {
+    position: absolute;
+    top: 66px;
+    right: 160px;
+    width: 500px;
+    height: 176px;
+    background: #fff;
+}
+
+.sign-wall {
+    height: 47px;
+    line-height: 47px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.sign-schedule ul {
+    margin-top: 27px;
+    display: table;
+    width: 100%;
+}
+
+.sign-schedule li {
+    position: relative;
+    display: table-cell;
+    height: 102px;
+}
+
+.dic {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-right: 0;
+    background: url(../images/youth/lo-13.png) no-repeat center center;
+}
+
+.dic span {
+    color: #fff;
+    background: #f3625a;
+    display: block;
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    transform: translateY(-27px);
 }

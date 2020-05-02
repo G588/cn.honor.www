@@ -2,11 +2,11 @@ $(function () { //0
 
     // 一.导航栏
     // 鼠标移入导航栏下拉出内容 
-    $(".has-child").mouseenter(function (e) {
-        e.stopPropagation(true)
+    $(".has-child").mouseenter(function () {
+        $('.subnav-ul').fadeIn()
         $(".header-subnav").stop().animate({
-            "top": 60,
-        }, function () {
+            "height": 60,
+        }, 300,function () {
             $(".subnav-lists").stop().animate({
                 "height": 380
             }, 500)
@@ -14,18 +14,29 @@ $(function () { //0
         })
     })
 
+
     // 鼠标移出导航栏隐藏内容 
-    $(".spp").mouseleave(function (e) {
-        e.stopPropagation(true)
-        $('.lists-box').fadeOut()
-        $(".subnav-lists").stop().animate({
-            "height": 0
-        }, function () {
-            $(".header-subnav").stop().animate({
-                "top": 0
-            }, 500)
-        })
-    })
+    // $(".spp").mouseleave(function (e) {
+    //     e.stopPropagation(true)
+    //     $('.lists-box').fadeOut()
+    //     $(".subnav-lists").stop().animate({
+    //         "height": 0
+    //     }, function () {
+    //         $(".header-subnav").stop().animate({
+    //             "top": 0
+    //         }, 500)
+    //     })
+    // })
+
+    // $(".s1").on('mouseenter', function () {
+    //     $(".header-subnav").fadeIn()
+    // }) 
+    // $(".s1").on('mouseleave', function () {
+    //     $(".header-subnav").fadeOut()
+    // })
+
+
+
 
     // 四.展示区
     // 鼠标移入，阅读更多出现
