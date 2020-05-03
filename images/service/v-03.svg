@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>分组 22 copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分组-22-copy">
+            <rect id="矩形" x="0" y="0" width="120" height="120"></rect>
+            <path d="M13.25,30.0708333 L106.75,30.0708333 C108.268783,30.0708333 109.5,31.3020503 109.5,32.8208333 L109.5,86.3083333 C109.5,87.8271164 108.268783,89.0583333 106.75,89.0583333 L13.25,89.0583333 C11.7312169,89.0583333 10.5,87.8271164 10.5,86.3083333 L10.5,32.8208333 C10.5,31.3020503 11.7312169,30.0708333 13.25,30.0708333 Z" id="路径" stroke="#323232" stroke-width="2.56666667" stroke-linecap="round"></path>
+            <rect id="矩形" fill="#323232" fill-rule="nonzero" x="55.7535417" y="25.5509446" width="8.49291667" height="5.28458333"></rect>
+            <g id="分组-20" transform="translate(18.744967, 93.175847) scale(-1, 1) translate(-18.744967, -93.175847) translate(12.786634, 89.050847)" stroke="#323232" stroke-linecap="round" stroke-width="2.56666667">
+                <path d="M0.608470605,5.36532397 L4.52001088,0.285077821" id="路径-22-copy" transform="translate(2.564241, 2.825201) rotate(7.405494) translate(-2.564241, -2.825201) "></path>
+                <path d="M11.6180843,7.7021171 L4.97230057,0.75021683" id="路径-22-copy-2" transform="translate(8.295192, 4.226167) rotate(2.375291) translate(-8.295192, -4.226167) "></path>
+            </g>
+            <g id="分组-20-copy-2" transform="translate(97.126172, 89.050847)" stroke="#323232" stroke-linecap="round" stroke-width="2.56666667">
+                <path d="M0.609389082,5.36910715 L4.52328499,0.285801543" id="路径-22-copy" transform="translate(2.566337, 2.827454) rotate(7.405494) translate(-2.566337, -2.827454) "></path>
+                <path d="M11.625633,7.70730756 L4.97584706,0.75122067" id="路径-22-copy-2" transform="translate(8.300740, 4.229264) rotate(2.375291) translate(-8.300740, -4.229264) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

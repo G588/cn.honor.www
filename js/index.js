@@ -1,12 +1,11 @@
 $(function () { //0
-
     // 一.导航栏
     // 鼠标移入导航栏下拉出内容 
-    $(".has-child").mouseenter(function () {
-        $('.subnav-ul').fadeIn()
+    $(".spp .header-nav li").eq(0).mouseenter(function (e) {
+        e.stopPropagation(true)
         $(".header-subnav").stop().animate({
-            "height": 60,
-        }, 300,function () {
+            "top": 60,
+        }, function () {
             $(".subnav-lists").stop().animate({
                 "height": 380
             }, 500)
@@ -14,29 +13,28 @@ $(function () { //0
         })
     })
 
-
     // 鼠标移出导航栏隐藏内容 
-    // $(".spp").mouseleave(function (e) {
-    //     e.stopPropagation(true)
-    //     $('.lists-box').fadeOut()
-    //     $(".subnav-lists").stop().animate({
-    //         "height": 0
-    //     }, function () {
-    //         $(".header-subnav").stop().animate({
-    //             "top": 0
-    //         }, 500)
-    //     })
-    // })
+    $(".spp").mouseleave(function (e) {
+        e.stopPropagation(true)
+        $('.lists-box').fadeOut()
+        $(".subnav-lists").stop().animate({
+            "height": 0
+        }, function () {
+            $(".header-subnav").stop().animate({
+                "top": 0
+            }, 500)
+        })
+    })
 
-    // $(".s1").on('mouseenter', function () {
-    //     $(".header-subnav").fadeIn()
-    // }) 
-    // $(".s1").on('mouseleave', function () {
-    //     $(".header-subnav").fadeOut()
-    // })
-
-
-
+    // 1.给li添加点击事件
+    $('.subnav-ul li').click(function () {
+        // 1.1 让所有的隐藏
+        $('.subnav-lists').hide();
+        // 1.2 让点击的这个li的索引对应的页面显示
+        let index = $(this).index();
+        $('.subnav-lists').eq(index).show();
+        $(this).addClass('sts').siblings().removeClass('sts')
+    })
 
     // 四.展示区
     // 鼠标移入，阅读更多出现
@@ -45,6 +43,7 @@ $(function () { //0
             opacity: 1
         })
     })
+    
     // 鼠标移出，阅读更多隐藏
     $('.campaign__box').on('mouseout', function () {
         $(".campaign__link-wrap").css({
@@ -67,8 +66,5 @@ $(function () { //0
             $(".go-back-top").hide()
         }
     })
-
-
-
 
 }) //0

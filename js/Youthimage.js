@@ -1,14 +1,4 @@
 $(function () {
-    // 一.导航栏
-    // 鼠标经过
-    $(".site-topnav>li>a").mouseover(function () {
-        $(".nav-link>p").mouseover(function () {})
-        $(this).siblings("ul").stop().fadeIn();
-    });
-    // 鼠标离开
-    $(".nav-li").mouseout(function () {
-        $(this).find("ul").stop().fadeOut();
-    });
 
     // 只要鼠标滚动，导航栏变色,否则不变色
     $(document).scroll(function () {
@@ -26,16 +16,18 @@ $(function () {
     })
 
     //鼠标移入，遮罩层出现，移出隐藏
-    $(".latest-item").on('mouseover', function () {
-        $(this).find('.latest-info').show()
+    $(".nav-li").on('mouseover', function () {
+        $(this).find('.site-subnav').stop().show()
+        $(this).find(".nav-link").addClass('sd')
     })
-    $(".latest-item").on('mouseout', function () {
-        $(this).find('.latest-info').hide()
+    $(".nav-li").on('mouseout', function () {
+        $(this).find('.site-subnav').stop().hide()
+        $(this).find(".nav-link").removeClass('sd')
     })
+
+
     var myVid = document.getElementById("video")
     // 点击显示视频
-    console.log($('.icon-video').eq(0));
-    console.log($(".modal"));
     $('.icon-video').eq(0).on('click', function () {
         $(".modal").eq(0).show()
         //视频播放

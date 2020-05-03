@@ -1,7 +1,7 @@
 $(function () { //0
     // 一.导航栏
     // 鼠标移入导航栏下拉出内容 
-    $(".has-child").mouseenter(function (e) {
+    $(".spp .header-nav li").eq(0).mouseenter(function (e) {
         e.stopPropagation(true)
         $(".header-subnav").stop().animate({
             "top": 60,
@@ -24,6 +24,17 @@ $(function () { //0
                 "top": 0
             }, 500)
         })
+    })
+
+    // 1.给li添加点击事件
+    $('.subnav-ul li').click(function () {
+        // 1.1 让所有的隐藏
+        $('.subnav-lists').hide();
+        // 1.2 让点击的这个li的索引对应的那个页面显示
+        let index = $(this).index();
+        // console.log(index);
+        $('.subnav-lists').eq(index).show();
+        $(this).addClass('sts').siblings().removeClass('sts')
     })
 
     // 返回顶部

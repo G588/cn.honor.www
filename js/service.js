@@ -18,14 +18,21 @@ $(function () { //0
 
     //鼠标点击，显示边框和小三角,再次点击隐藏边框和小三角
     //当前的显示边框和小三角，他的兄弟隐藏边框和小三角
+
     $(".swiper-slide").on('click', function () {
-        $(this).toggleClass('sd').siblings().removeClass('sd')
-        $(this).toggleClass('pox').siblings().removeClass('pox')
-        var index = $(this).index()
-        console.log(index);
+        $(this).addClass('sd').siblings().removeClass('sd')
+        $(this).addClass('pox').siblings().removeClass('pox')
+        var index=$(this).index()
         $('.topsel').hide()
         $('.topsel').eq(index).toggle()
     })
+    
+    $(".swiper-slide").on('dblclick',function(){
+        $('.topsel').hide()
+    })
+
+
+
     //鼠标移入移出，服务活动部分变化
     $(".v3-card-body").on('mouseover', function () {
         $(this).css({
@@ -45,12 +52,12 @@ $(function () { //0
         })
     })
 
-        // 返回顶部
-        $(".go-back-top").click(function () {
-            $('html,body').stop().animate({
-                'scrollTop': 0
-            })
+    // 返回顶部
+    $(".go-back-top").click(function () {
+        $('html,body').stop().animate({
+            'scrollTop': 0
         })
+    })
 
     //如果滚动出去的距离大于100就显示返回顶部按钮
     $(window).scroll(function () {

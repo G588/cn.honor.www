@@ -454,12 +454,13 @@ h3[class^="v3-"] {
 
 /* 下部展示 */
 
-    {
+.topsel{
     display: none;
     width: 1214px;
-    height: auto;
-    background-color: thistle;
     margin: 0 auto;
+}
+.spyu{
+    margin-left: -914px;
 }
 
 .v3-s-cn-type-content-type-item {
@@ -496,10 +497,8 @@ h3[class^="v3-"] {
 }
 
 .v3-s-cn-type-content-type-item-title {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
-    line-height: 32px;
-    padding: 0 26px;
 }
 
 .v3t {
@@ -753,6 +752,7 @@ h3[class^="v3-"] {
 }
 
 .topsel {
+    display: none;
     text-align: center;
 }
 

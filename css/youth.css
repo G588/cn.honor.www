@@ -16,6 +16,13 @@
     top: 0;
 }
 
+.mod27-nav-wrp {
+    height: 50px;
+    background: center center no-repeat rgb(97, 170, 255);
+    position: relative;
+    top: -3px;
+}
+
 .mod-fixednav .mod27-nav ul {
     margin: 0 auto;
     position: relative;
@@ -157,7 +164,6 @@
     background: url(../images/youth/lo-11.png) no-repeat center center;
     width: 1200px;
     height: 310px;
-    background-color: pink;
     margin: 0 auto;
 
 }

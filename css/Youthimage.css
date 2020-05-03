@@ -100,9 +100,16 @@ body {
     color: #fff;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
     background-color: #fff;
     color: #000;
+} */
+.sd {
+    background-color: #fff;
+    color: #000 !important;
+}
+.site-subnav li:hover{
+    background-color: #666;
 }
 
 /* 二.展示 */
