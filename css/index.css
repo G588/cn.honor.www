@@ -80,17 +80,17 @@
 
 .header-nav {
     position: absolute;
-    top: 0px;
+    top: 0px;    
     left: 459px;
     display: inline-block;
-    height: 67px;
-    background-color: #000;
-    width: 491px;
+    height: 92px;
+    width: 517px;
     display: flex;
     margin-bottom: 0;
     justify-content: center;
     margin: 0 auto;
     z-index: 99999;
+
 }
 
 .header-nav li {
