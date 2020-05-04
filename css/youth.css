@@ -17,6 +17,8 @@
 }
 
 .mod27-nav-wrp {
+    z-index: 99999;
+    width: 100%;
     height: 50px;
     background: center center no-repeat rgb(97, 170, 255);
     position: relative;
@@ -245,4 +247,110 @@
     line-height: 27px;
     font-size: 14px;
     transform: translateY(-27px);
+}
+
+.wish-wrp {
+    position: relative;
+    z-index: 1;
+    width: 10000%;
+    left: 50%;
+    margin-left: -5000%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.video-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.set {
+    width: 1200px;
+    overflow: auto;
+}
+
+.set li {
+    float: left;
+    position: relative;
+    margin-left: 12px;
+    width: 392px;
+    height: 240px;
+}
+
+.set li img,
+.J_mod li img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.set li:nth-child(1) {
+    margin-left: 0;
+    background: url(../images/youth/s-01.png) no-repeat center center;
+}
+
+.set li:nth-child(2) {
+    background: url(../images/youth/s-02.jpg) no-repeat center center;
+}
+
+.set li:nth-child(3) {
+    background: url(../images/youth/s-03.png) no-repeat center center;
+}
+
+.sd {
+    margin-left: 0 !important;
+    overflow: hidden;
+}
+
+.J_mod {
+    width: 1200px;
+    margin: 0 auto;
+    height: 180px;
+    background-color: rgb(246, 240, 255);
+}
+
+.J_mod li {
+    float: left;
+    position: relative;
+    margin-left: 11px;
+    width: 291px;
+    height: 180px;
+    background-color: #f3625a;
+}
+
+.J_mod li:first-child {
+    margin-left: 0;
+    background: url(../images/youth/t-01.png) no-repeat center center;
+}
+
+.J_mod li:nth-child(2) {
+    background: url(../images/youth/t-02.png) no-repeat center center;
+}
+
+.J_mod li:nth-child(3) {
+    background: url(../images/youth/t-03.png) no-repeat center center;
+}
+
+.J_mod li:nth-child(4) {
+    background: url(../images/youth/t-04.png) no-repeat center center;
+}
+
+.shj {
+    position: relative;
+}
+
+.dinw {
+    right: 477px;
+    position: absolute;
+    width: 217px;
+    height: 53px;
+    top: 69px;
+    z-index: 999;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 25px;
+    cursor: pointer;
 }

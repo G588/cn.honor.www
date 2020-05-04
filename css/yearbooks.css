@@ -1,0 +1,369 @@
+body {
+    font-family: 'Avenir Next Regular', Arial, 'PingFang SC', 'Microsoft YaHei', 'ProximaNova';
+    font-size: 14px;
+    background: #fff;
+}
+
+/* 大盒子  */
+.honor-gy {
+    background-color: #161616;
+    font-family: 'Avenir Next Regular', 'HYQiHei';
+    color: #ffffff;
+}
+
+/* 一  */
+.gy-section1 {
+    position: relative;
+    font-size: 0;
+}
+
+.honor-gy-pc {
+    width: 100%;
+}
+
+.gy-top-home {
+    position: absolute;
+    top: 3%;
+    left: 2.5%;
+    width: 3.8vw;
+    width: 9.5vw;
+}
+
+.gy-logoslogan {
+    position: absolute;
+    top: 24.2vw;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+.gy-slogan-title {
+    font-size: 3.125vw;
+    letter-spacing: 0.5vw;
+    text-indent: 0.5vw;
+    font-family: 'HYQiHei Bold';
+}
+
+.gy-logoslogan .gy-slogan-text {
+    font-family: 'HYQiHei Demi';
+    font-size: 1.55vw;
+    padding-top: 1.3vw;
+    letter-spacing: 3.7vw;
+    text-indent: 3.7vw;
+}
+
+.gy-go-on {
+    position: absolute;
+    top: 39.21vw;
+    left: 43.7%;
+    width: 12.6vw;
+    text-align: center;
+    box-shadow: 0 0 2px #fff;
+    border-radius: 30px;
+    font-size: 1.25vw;
+    padding: 0.63vw 0;
+    letter-spacing: 0.4vw;
+    text-indent: 0.4vw;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.gy-go-on:hover {
+    background-color: #812aff;
+    box-shadow: none;
+}
+
+.gy-intro {
+    position: absolute;
+    bottom: 6vw;
+    width: 36.4%;
+    left: 31.8%;
+    text-align: center;
+}
+
+.gy-intro-title {
+    font-size: 1.3vw;
+    color: #5576f6;
+}
+
+.gy-intro .gy-intro-text {
+    font-size: 0.93vw;
+    line-height: 1.56vw;
+    padding-top: 0.78vw;
+}
+
+.gy-share-list {
+    position: absolute;
+    right: 2.9vw;
+    top: 19.375vw;
+    width: 2.34vw;
+    font-size: 0;
+}
+
+.gy-share-list li {
+    margin-top: 1.56vw;
+    cursor: pointer;
+}
+
+.gy-share-list img {
+    width: 100%;
+}
+
+.gy-share-light {
+    display: none;
+}
+
+/* 二 */
+.gy-section2 {
+    background-color: #272727;
+    padding: 4.68vw 0;
+}
+
+.gy-section2 .gy-line-tab {
+    position: relative;
+    width: 72.4%;
+    font-size: 0;
+    padding: 4.8vw 0 4.47vw;
+    margin: 0 auto;
+}
+
+.gy-line-tab>li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 6.5vw;
+}
+
+.gy-line-tab>li img {
+    width: 4.16vw;
+    margin-bottom: 1.875vw;
+}
+
+.gy-line-tab>li p {
+    font-size: 0.9375vw;
+    color: #7b7b7b;
+}
+
+.gy-line-tab>li p:nth-child(3) {
+    font-size: 0.8333vw;
+    margin-top: 0.12vw;
+}
+
+.gy-line-cut {
+    display: inline-block;
+    margin: 0 0 0 6.5vw;
+    position: relative;
+    top: -4vw;
+}
+
+.gy-line-pink {
+    width: 3.125vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.gy-line-blue {
+    width: 3.125vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* 三  */
+.gy-section3 {
+    position: relative;
+    font-size: 0;
+}
+
+.gy-section3 .gy-prizes-title {
+    position: absolute;
+    top: 15.8vw;
+    right: 26vw;
+    font-size: 3.75vw;
+}
+
+.gy-prizes-tab {
+    position: absolute;
+    left: 18.75vw;
+    bottom: 8vw;
+}
+
+.gy-prizes-tab img {
+    width: 37.5vw;
+}
+
+.gy-prizes-word {
+    position: absolute;
+    left: 21vw;
+    bottom: 3.55vw;
+}
+
+.gr-prizes-title {
+    font-size: 1.5625vw;
+}
+
+.gr-prizes-text {
+    font-size: 1vw;
+    color: #7b7b7b;
+    padding-top: 0.9375vw;
+}
+
+.gr-prizes-text a {
+    font-size: 1vw;
+    color: #7b7b7b;
+    padding-top: 0.9375vw;
+}
+
+/* 四 */
+.gy-section4 {
+    position: relative;
+    background: #101010;
+    padding-bottom: 8.54vw;
+}
+
+.gy-section4-top {
+    position: relative;
+}
+
+.gy-section4-top img {
+    width: 100%;
+}
+
+.gy-select-title {
+    position: absolute;
+    top: 6.55vw;
+    right: 18.75vw;
+    font-size: 3.75vw;
+}
+
+.honor-gy-title {
+    font-family: 'HYQiHei Bold';
+}
+
+.gy-select-num {
+    position: absolute;
+    top: 11.2vw;
+    right: 18.75vw;
+    font-size: 1.5625vw;
+}
+
+.gy-select-text {
+    position: absolute;
+    bottom: 4vw;
+    right: 18.75vw;
+    font-size: 0.9375vw;
+    color: #7b7b7b;
+}
+
+.gy-section4-listtab {
+    position: relative;
+    /* height: 15.625vw; */
+    width: 62.5vw;
+    margin-left: 18.75vw;
+    margin-bottom: 3.9vw;
+}
+
+.gr-select-left {
+    float: left;
+    width: 12.24vw;
+    text-align: center;
+}
+
+.gr-select-left .gr-select-title {
+    font-size: 1.5625vw;
+    margin-top: 5.73vw;
+}
+
+.gr-select-text {
+    font-size: 1.5625vw;
+    color: #5576f6;
+    margin-top: 0.625vw;
+}
+
+.gr-select-photo01 {
+    height: 100%;
+}
+
+.set {
+    margin-left: 252px;
+    width: 640px;
+    height: 225px;
+    background-color: #000;
+}
+
+/* 滑动轮播 */
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 640px;
+    height: 225px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 60%;
+}
+
+.swiper-slide:nth-child(2n) {
+    width: 29%;
+    margin-right: 9px !important;
+
+}
+
+.swiper-slide:nth-child(3n) {
+    width: 47%;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-slide:nth-child(12){
+    width: 29% !important;
+}
+.swiper-slide:nth-child(13){
+    width: 47% !important;
+}
+.swiper-slide:nth-child(14){
+    width: 47% !important;
+}
+.swiper-slide:nth-child(16){
+    width: 69% !important;
+}
+.swiper-slide:nth-child(19){
+    width: 69% !important;
+}
+.swiper-slide:nth-child(20){
+    width: 35% !important;
+}
+.swiper-slide:nth-child(21){
+    width: 48% !important;
+}
