@@ -359,7 +359,7 @@ p {
     text-align: center;
     font-size: .18rem;
     color: #FFFFFF;
-    /* flex-grow: 2; */
+    cursor: pointer;
 }
 
 /* 隐藏的内容 */

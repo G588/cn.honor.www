@@ -489,14 +489,10 @@ body.honor-v2>div>.content {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%) scale(0.1);
     transform: translate(-50%, -50%) scale(0.1);
     min-width: 1000%;
     min-height: 1000%;
     max-width: none;
-    -webkit-transition: -webkit-transform 300ms linear;
-    transition: -webkit-transform 300ms linear;
-    transition: transform 300ms linear;
     transition: transform 300ms linear, -webkit-transform 300ms linear;
 }
 
@@ -572,6 +568,13 @@ body.honor-v2>div>.content {
     }
 }
 
+.c44-brand-event .swiper-slide:hover .c44-be__slide-title-nohover div, .c44-brand-event .swiper-slide:hover .c44-be__slide-category div {
+    -webkit-transform: translateY(-130%);
+    transform: translateY(-130%);
+}
+.c44-be__slide-title div, .c44-be__slide-category div {
+    transition: transform 300ms linear,-webkit-transform 300ms linear;
+}
 /* 五.主题  */
 .honor-brand-people {
     position: relative;
