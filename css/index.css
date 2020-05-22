@@ -45,7 +45,7 @@
     line-height: 0;
 }
 
-/* 左边的logo */
+/* 左边logo */
 @media screen and (max-width: 1366px) {
     .header-v2 .honor-logo {
         width: 126px;
@@ -65,7 +65,7 @@
     max-width: 100%;
 }
 
-/* 中间的内容 */
+/* 中间内容 */
 @media screen and (max-width: 1366px) {
     .header-v2 .header-nav {
         width: 830px;
