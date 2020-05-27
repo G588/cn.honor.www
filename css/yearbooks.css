@@ -398,31 +398,38 @@ body {
     position: relative;
     background: #101010;
 }
+
 .gy-section5-top img{
     width: 100%;
 }
+
 .gy-award-title {
     position: absolute;
     top: 6vw;
     left: 15vw;
     font-size: 3.75vw;
 }
+
 .gy-award-title span {
     color: #5576f6;
 }
+
 .gy-award-text {
     position: absolute;
     top: 13vw;
     left: 15vw;
     font-size: 0;
 }
+
 .gy-award-text li:first-child {
     margin-right: 2.7vw;
 }
+
 .gy-award-text .gy-best-check {
     font-size: 1.56vw;
     color: #ffffff;
 }
+
 .gy-award-text li {
     display: inline-block;
     font-size: 1.25vw;
@@ -430,32 +437,39 @@ body {
     vertical-align: baseline;
     cursor: pointer;
 }
+
 .gy-section5-change .gy-best-show {
     display: block;
 }
+
 .gy-section5 .gy-section5-listtab {
     /* display: none; */
     width: 70%;
     margin-left: 15%;
     font-size: 0;
 }
+
 .gy-section5-list:not(:nth-child(4n)) {
     margin-right: 2.46%;
 }
+
 .gy-section5 .gy-section5-list {
     margin-bottom: 5.57vw;
 }
+
 .gy-section5-list {
     text-align: center;
     width: 23.15%;
     display: inline-block;
 }
+
 .gy-section5-list a {
     width: 100%;
     height: 100%;
     display: inline-block;
     text-decoration: none;
 }
+
 .gy-hover-tab {
     border: solid transparent 0.416vw;
 }
