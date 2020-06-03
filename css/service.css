@@ -714,9 +714,7 @@ h3[class^="v3-"] {
 
 
 /* 3.3收起与查看更多 */
-/* .v3-s-cn-service-section .v3-s-cn-show {
-    display: block !important;
-} */
+
 .v3-s-cn-service-section .v3-s-cn-more {
     text-align: center;
 }
