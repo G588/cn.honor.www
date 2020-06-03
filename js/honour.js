@@ -26,6 +26,7 @@ $(function () { //0
         marginTop: "15vh",
         width: "40%",
     })
+
     //点击发表评论，显示用户登录界面
     $(".el-button--default").on('click', function () {
         $(".el-dialog__wrapper").hide()
@@ -33,12 +34,13 @@ $(function () { //0
     $(".enter-btn").on('click', function () {
         $(".layui-layer ").show()
     })
+
     //点击取消，隐藏用户登录界面
     $(".btn").on('click', function () {
         $(".el-dialog__wrapper").show()
         $(".el-input__inner").text('')
-
     })
+
     //请输入姓名,获得焦点
     $(".el-input__inner").eq(0).on('focus', function () {
         var se = $(".el-input__inner").eq(0).val().trim()
@@ -46,6 +48,7 @@ $(function () { //0
             $(".el-form-item__error").eq(0).show()
         }
     })
+
     //请输入姓名,失去焦点
     $(".el-input__inner").eq(0).on('blur', function () {
         var se = $(".el-input__inner").eq(0).val().trim()
@@ -53,7 +56,6 @@ $(function () { //0
             $(".el-form-item__error").eq(0).show()
         } else {
             $(".el-form-item__error").eq(0).hide()
-
         }
     })
 
