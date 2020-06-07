@@ -1,5 +1,4 @@
 $(function () { //0
-    
     // 一.导航栏
     // 鼠标移入导航栏下拉出内容 
     $(".spp .header-nav li").eq(0).mouseenter(function (e) {
@@ -44,7 +43,7 @@ $(function () { //0
             opacity: 1
         })
     })
-    
+
     // 鼠标移出，阅读更多隐藏
     $('.campaign__box').on('mouseout', function () {
         $(".campaign__link-wrap").css({
@@ -67,5 +66,5 @@ $(function () { //0
             $(".go-back-top").hide()
         }
     })
-    
+
 }) //0
